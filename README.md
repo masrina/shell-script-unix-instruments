@@ -14,6 +14,7 @@ Open run_automation.sh:
   BUILD_DIR=/tmp/iPropSGiOSiPhoneV2
   
 - Change workspace or project name and scheme name to your project or workspace name
+  
   To build the Xcode project:
   xcodebuild -workspace "workspace_name.xcworkspace" -scheme "scheme_name" -sdk iphonesimulator clean build \
   CONFIGURATION_BUILD_DIR=$BUILD_DIR \
